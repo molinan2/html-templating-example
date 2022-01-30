@@ -1,0 +1,50 @@
+[
+    {
+        "name": "arte",
+        "image": {
+            "name": "arte.jpg"
+        },
+        "translations": [
+            {
+                "name": "es",
+                "copy": {
+                    "title": "Arte moderno",
+                    "subtitle": "Muy bonito este tipo de arte, sí",
+                    "button": "Dale"
+                }
+            },
+            {
+                "name": "cat",
+                "copy": {
+                    "title": "Art modern",
+                    "subtitle": "Molt bonic aquest tipus d'art, sí",
+                    "button": "Dale"
+                }
+            }
+        ]
+    },
+    {
+        "name": "economia",
+        "image": {
+            "name": "economia.jpg"
+        },
+        "translations": [
+            {
+                "name": "es",
+                "copy": {
+                    "title": "Economía",
+                    "subtitle": "La impossibilitad del cálculo económico en el socialismo",
+                    "button": "Liberar"
+                }
+            },
+            {
+                "name": "cat",
+                "copy": {
+                    "title": "Economia",
+                    "subtitle": "La impossibilitat del càlcul econòmic en el socialisme",
+                    "button": "Alliberar"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,25 @@
+{{!-- Layout 2 --}}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tercer layout</title>
+        <style>
+            .text {
+                font-family: {{ style.fontFamily }}
+            }
+
+            body {
+                width: 100px;
+                height: 600px;
+                background-color: #d8e299;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class='text'>{{ copy.title }}</h1>
+        <h2 class='text'>{{ copy.subtitle }}</h2>
+        <button class='text'>{{ copy.button }}</button>
+        <img src='./images/{{ image.name }}' width='100'>
+    </body>
+</html>

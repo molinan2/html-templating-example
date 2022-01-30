@@ -1,0 +1,25 @@
+{{!-- Layout 2 --}}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Segundo layout</title>
+        <style>
+            .text {
+                font-family: {{ style.fontFamily }}
+            }
+
+            body {
+                width: 300px;
+                height: 300px;
+                background-color: #99d8e2;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class='text'>{{ copy.title }}</h1>
+        <h2 class='text'>{{ copy.subtitle }}</h2>
+        <button class='text'>{{ copy.button }}</button>
+        <img src='./images/{{ image.name }}' width='100'>
+    </body>
+</html>

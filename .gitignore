@@ -1,0 +1,4 @@
+node_modules
+.idea
+dist/*html
+dist/images/*jpg
